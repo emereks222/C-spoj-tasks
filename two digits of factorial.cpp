@@ -6,7 +6,7 @@ using namespace std;
 {
     if(x>1 && x<=10)               //factorial function
       return x*fac(x-1);
-      else if (x>10)               //optimization of memory usage (every x!, x>10, ends with 00)
+    else if (x>10)                 //optimization of memory usage (every x!, x>10, ends with 00)
       return 0;
     else 
       return 1;
